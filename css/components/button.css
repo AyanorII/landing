@@ -1,0 +1,12 @@
+.btn {
+  background-color: hsl(266, 84%, 62%);
+  padding: 1rem 2.25rem;
+  border-radius: 30px;
+  color: #fff;
+  transition: all 0.25s;
+  display: inline-block;
+}
+
+.btn:hover {
+  transform: scale(1.25);
+}

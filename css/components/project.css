@@ -1,0 +1,52 @@
+.projects {
+  margin-top: 4rem;
+  padding-block: 2rem 5rem;
+  background: rgb(170, 21, 210);
+  background: linear-gradient(
+    146deg,
+    rgba(170, 21, 210, 1) 0%,
+    rgba(14, 44, 140, 1) 100%
+  );
+}
+
+.projects__heading {
+  margin-bottom: 2rem;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.projects__cards {
+  width: 45%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+}
+
+.projects__cards .card {
+  padding: 0;
+  padding-bottom: 3rem;
+}
+
+.projects__cards img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.projects__cards a {
+  display: inline-block;
+  margin-top: 1rem;
+  background: rgb(21, 123, 210);
+  background: linear-gradient(
+    146deg,
+    rgba(21, 123, 210, 1) 0%,
+    rgba(14, 140, 139, 1) 100%
+  );
+  transition: all 0.25s
+}
+
+.projects__cards a:hover {
+  transform: scale(1.25)
+}

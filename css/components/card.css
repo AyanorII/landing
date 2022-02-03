@@ -1,0 +1,31 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 2rem 5rem;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(50, 50, 50, 0.20);
+  padding: 1.5rem 1rem;
+  text-align: center;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card img {
+  width: 130px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin-block: 1rem;
+}
+
+.card p {
+  width: 80%;
+  margin: 0 auto;
+}

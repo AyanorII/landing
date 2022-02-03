@@ -1,0 +1,21 @@
+.banner {
+  color: #FFF;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3.5rem;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  text-shadow: 0 0 10px #000000;
+}
+
+.banner p {
+  font-size: 1.3rem;
+  text-shadow: 0 0 10px #000000;
+  color: #e4dcdc;
+  margin-block: 1rem 2rem;
+}
